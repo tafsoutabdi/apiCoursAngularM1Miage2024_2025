@@ -13,6 +13,7 @@ const uri = 'mongodb+srv://tafsoutabdi74:tafsoutabdi74@cluster0.1ra8x.mongodb.ne
 const options = {
   useNewUrlParser: true,
   useUnifiedTopology: true,
+  useFindAndModify: false
 };
 
 mongoose.connect(uri, options)
